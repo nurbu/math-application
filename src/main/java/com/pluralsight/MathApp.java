@@ -22,5 +22,12 @@ public class MathApp {
         double radius = 7.25;
         double area = Math.PI * (radius * radius);
         System.out.println("The Area of the radius: 7.25 is " + area);
+
+        // Finding the square root of 5.0
+
+        double radicand = 5.0;
+        double squareRoot = Math.sqrt(radicand);
+        System.out.println("The Square Root of the radicand is " + squareRoot);
+        
     }
 }
