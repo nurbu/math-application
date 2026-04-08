@@ -38,5 +38,10 @@ public class MathApp {
         double distance = Math.sqrt(Math.pow((point2X - point1X), 2) + Math.pow((point2Y - point1Y), 2));
         System.out.println("The distance between point 1 and Point 2 is " + distance);
 
+        // Finding the absolute (positive) value of -3.8
+
+        double negativeNumber = -3.8;
+        double absoluteNumber = Math.abs(negativeNumber);
+        System.out.println("The absolute number is " + absoluteNumber);
     }
 }
