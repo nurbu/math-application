@@ -43,5 +43,11 @@ public class MathApp {
         double negativeNumber = -3.8;
         double absoluteNumber = Math.abs(negativeNumber);
         System.out.println("The absolute number is " + absoluteNumber);
+
+        // Finding a random number between 0 and 1
+        int min = 0;
+        int max = 2;
+        int randomNumber = (int) (Math.random() * (max - min) + min);
+        System.out.println("The random number is " + randomNumber);
     }
 }
